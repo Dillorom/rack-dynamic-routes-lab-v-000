@@ -9,6 +9,7 @@ class Application
     resp.write "#{item.price}\n"
       end
     else
+      resp.status 400
       resp.write "Route not found"
     end
   end
