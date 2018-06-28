@@ -10,6 +10,7 @@ class Application
       end
     else
       resp.write "Route not found"
+    end
   end
 
 end
